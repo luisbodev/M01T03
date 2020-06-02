@@ -1,0 +1,8 @@
+Inicio
+1-Varable year;
+2-El usuario ingresa el año que quiere saber si es bisiesto o no;
+3-Si year%4==0 && year%100!=0 || year%400==0 :
+	Imprimir "El año es Bisiesto";
+  sino 
+  	Imprimir "El año NO es Bisiesto";
+Fin

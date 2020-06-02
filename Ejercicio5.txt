@@ -1,0 +1,21 @@
+Inicio
+1- Variables $precioPro, $categoria, $desc=0, $descSom=0, $montoDesc, $montoCobrar, $findeSemana, $clienteSombrero=false, $producNuevo=false;
+2- Se lee el precio del producto en la variable $precioPro y la categoria en la variable $categoria;
+3- Se pregunta si es fin de semana y se guarda en $findeSemana, las opciones son 'true' o 'false';
+4- Se pregunta si es el cliente viste un sombrero y se guarda en $clienteSombrero, las opciones son 'true' o 'false';
+5- Se pregunta si es el producto esta marcado como nuevo y se guarda en $producNuevo, las opciones son 'true' o 'false';
+6- Si !$producNuevo: 
+	Si $findeSemana :
+		$desc=0.10;
+	   Sino:
+	   	Si $precioPro>100:
+	   		$desc = 0.03;
+	   	Sino:
+	   		Si $categoria == "Auto estéreos" :
+	   			$desc = 0.05;
+	   	Si $clienteSombrero:
+	   		$descSom=5.00;
+7- $montoDesc=$precioPro-($precioPro*desc)-$descSom;
+8- $montoCobrar=$precioPro-$montoDesc;
+9- Impresion de $precioPro, $montoDesc y $montoCobrar;
+Fin

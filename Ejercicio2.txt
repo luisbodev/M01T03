@@ -1,0 +1,9 @@
+Inicio
+1-Variables A1, A2, A3, suma;
+2-El usuario ingresa los ángulos del triángulo
+3-Suma=A1+A2+A3;
+4-Si Suma==180:
+	Imprimir 'Los ángulos del triángulo son validos';
+  Sino:
+  	Imprimir 'Los ángulos del triángulo son invalidos';
+Fin

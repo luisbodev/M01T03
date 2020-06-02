@@ -1,0 +1,11 @@
+Inicio
+1-Variables x, y, z;
+2-Variable numeroMayor;
+3-Ingresar los tres numeros a analizar
+4-numeroMayor=x;
+5-Si y>numeroMayor:
+	numeroMayor=y;
+6-Si z>numeroMayor:
+	numeroMayor=z;
+7-Imprimir "El numero Mayor es: ".numeroMayor;
+Fin

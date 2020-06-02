@@ -1,0 +1,21 @@
+Inicio
+1-Varable $minCon, $costoMinuto, $desc=0, $total;
+2-El usuario ingresa la cantidad de minutos consumidos
+3-Evaluar($minCon)
+	Equivale a $minCon==0 || 100<=$minCon :
+		$costoMinuto = 0.45;
+		break;
+	Equivale a $minCon>=101 || 200<=$minCon :
+		$costoMinuto = 0.40;
+		break;
+	Equivale a $minCon>=201 || 400<=$minCon :
+		$costoMinuto = 0.30;
+		$desc=5.00;
+		break;
+	Equivale a $minCon>=401 :
+		$costoMinuto = 0.27;
+		$desc=10.00;
+		break;
+4-$total=($minCon*$costoMinuto)-$desc;
+5-Imprimir $total;
+Fin
